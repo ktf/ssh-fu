@@ -1,5 +1,5 @@
 #!/bin/sh
-
+export LANG=C
 # Acquire a token exists for a particular principal ($1). Gets the current
 # cached principal, if any, and its remaining life time, if any. If there
 # is no principal, or it's close to expiring, reacquire a new one.
